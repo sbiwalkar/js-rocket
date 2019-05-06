@@ -1,3 +1,13 @@
+var sayMyName = function(name)
+{
+	alert('My name is '+name);
+}
+
+var doCoolStuff = function (argument) {
+	// body...
+	document.getElementById('cool').className ='cool red';
+}
+
 var car = {
 			make: 'VM',
 			color: 'blue',
