@@ -3,9 +3,16 @@ var sayMyName = function(name)
 	alert('My name is '+name);
 }
 
-var doCoolStuff = function (argument) {
+var doCoolStuff = function () {
 	// body...
-	document.getElementById('cool').className ='cool red';
+var newClassName = document.getElementById('cool').className;
+
+if(newClassName == 'cool'){
+	document.getElementById('cool').className = 'cool red';
+}else
+{
+	document.getElementById('cool').className = 'cool';
+}
 }
 
 var car = {
